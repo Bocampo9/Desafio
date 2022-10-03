@@ -1,0 +1,58 @@
+*{
+    margin: 0%
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.menuarriba{
+    /* margin: 1rem; */
+}
+
+
+.menuarriba .cajaarriba {
+    display: inline-block;
+    padding: .8rem 1rem .5rem .8rem;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+
+}
+.menuarriba .cajaarriba:hover{
+    background-color:#04AA6D;
+    text-decoration: white;
+    cursor: pointer;
+}
+.cajaarriba > a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.cajaarriba > a:hover{
+    
+
+}
+
+.menuabajo {
+    background-color: #282435;
+    position: sticky;
+    top: 0%;
+}
+.menuabajo .cajaabajo{
+    display: inline-block;
+    height: 40px;
+}
+.cajaabajo > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0rem 1rem 0rem 1rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+}
+.cajaabajo:hover{
+    background-color:#04AA6D;
+    color: white;
+    cursor: pointer;
+}
